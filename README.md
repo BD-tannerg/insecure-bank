@@ -10,8 +10,9 @@
 
 	    $ mvn clean package
 	    $ mvn cargo:run
+   
 	    
-3. You can then access the bank application here: http://localhost:8080/insecure-bank/
+4. You can then access the bank application here: http://localhost:8080/insecure-bank/
 
 ## Running with Docker
 
