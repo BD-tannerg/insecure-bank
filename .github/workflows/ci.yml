@@ -62,6 +62,7 @@ jobs:
         # coverity_clean_command: mvn clean
         # coverity_config_path: /Users/Config/coverity.yml
         # coverity_args: --config-override capture.build.build-command=mvn install
+        
 
     - name: Polaris PR Scan
       id: polaris-pr-scan
