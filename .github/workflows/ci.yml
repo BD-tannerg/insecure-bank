@@ -34,7 +34,7 @@ jobs:
         polaris_application_name: "tannerg-InsecureBank-Java"
         polaris_project_name: "InsecureBank"
         polaris_branch_name: "master"
-        coverity_build_command: mvn -B package -DskipTests
+        coverity_build_command: "mvn -B package -DskipTests"
         
         ### SCANNING: Optional fields
         # polaris_application_name: ${{ github.event.repository.name }}
