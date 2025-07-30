@@ -25,7 +25,7 @@ jobs:
         ### SCANNING: Required fields
         blackducksca_url: ${{ vars.BLACKDUCK_URL }}
         blackducksca_token: ${{ secrets.BLACKDUCK_TOKEN }}
-        detect_args: '--detect.diagnostic=true'
+        detect_args: '--detect.excluded.detector.types=GIT'
         
         ### SCANNING: Optional fields
         # blackducksca_scan_failure_severities: 'BLOCKER,CRITICAL'
